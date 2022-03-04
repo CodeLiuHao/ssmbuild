@@ -74,18 +74,5 @@ public class BookController {
         return "redirect:/book/allBook";
     }
 
-//    @RequestMapping("/queryBook")
-//    public String queryBook(String queryBookName, Model model) {
-//        Books books = bookService.queryBookByName(queryBookName);
-//        //复用，这样就显示一个
-//        List<Books> list = new ArrayList<>();
-//        list.add(books);
-//        if (books == null) {
-//            list= bookService.queryAllBook();
-//            model.addAttribute("errMsg","未查任何书籍");
-//        }
-//        model.addAttribute("list", list);
-//        return "allBook";
-//    }
 }
 
