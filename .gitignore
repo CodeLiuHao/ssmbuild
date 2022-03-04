@@ -1,0 +1,9 @@
+﻿/cmake-build-debug/
+.idea
+/out/
+.vs
+/.vscode/
+/build/
+/install/
+/cmake-build-release/
+/target/
